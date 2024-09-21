@@ -81,7 +81,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <Card className="border-2 h-full min-h-32 w-3/4 flex justify-center items-end m-auto pb-2">
+      <Card className="h-full min-h-32 w-1/2 flex justify-center items-end m-auto pb-2">
         <div className="relative w-full p-4">
           <textarea
             ref={ref}
