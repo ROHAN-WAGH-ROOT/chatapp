@@ -54,6 +54,7 @@ const App: React.FC = () => {
       setTextareaValue(conversation[conversation?.length - 1]?.data);
       setShowModal(false);
       setConversation([]);
+      setResponseStatus(false);
     }
   };
 
